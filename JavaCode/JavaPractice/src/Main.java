@@ -32,6 +32,7 @@ public class Main {
 	}
 
 }
+<<<<<<< HEAD
 
 
 
@@ -49,3 +50,5 @@ public static double calculateArea(double triangleBase, double triangleHeight){
 }
 This is the first practical method we have written.
 */
+=======
+>>>>>>> branch 'main' of git@github.com:Belalgrd/My-Java-Programming.git
