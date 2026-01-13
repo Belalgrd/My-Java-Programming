@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public class RotateAnArray {
 	public static void main(String[] args) {
-		int nums[] = {1, 2, 3, 4, 5, 6, 7};
+		int arr[] = {1, 2, 3, 4, 5, 6, 7};
 		int k = 3;
-		System.out.println(Arrays.toString(rotate(nums, k)));
+		System.out.println(Arrays.toString(rotate(arr, k)));
 }
 	public static int[] rotate(int[] nums, int k) {
 		int n = nums.length;
@@ -14,11 +14,11 @@ public class RotateAnArray {
 		reverse(nums, k, n - 1);
 		return nums;
 	}
-	public static void reverse(int[] nums, int start, int end) {
+	public static void reverse(int[] arr, int start, int end) {
 		while (start < end ) {
-			int temp = nums[start];
-			nums[start] = nums[end];
-			nums[end] = temp;
+			int temp = arr[start];
+			arr[start] = arr[end];
+			arr[end] = temp;
 			start++;
 			end--;
 		}
